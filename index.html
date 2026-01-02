@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BluFlame Consulting</title>
+    <meta
+      name="description"
+      content="BluFlame Consulting — practical consulting for games, business, and strategy."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="header">
+      <div class="container header-inner">
+        <div class="brand">
+          <img
+            class="brand-logo"
+            src="assets/bluflame_logo_square.png"
+            alt="BluFlame Consulting logo"
+            width="56"
+            height="56"
+          />
+          <div class="brand-text">
+            <h1 class="brand-name">BluFlame Consulting</h1>
+            <p class="brand-tagline">General Management and Events consulting services.</p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#team">Team</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section id="about" class="section hero">
+        <div class="container">
+          <div class="card hero-card">
+            <h2 class="section-title">What we do</h2>
+            <p class="lead">
+              <!-- Company services description -->
+        BluFlame Consulting supports companies operating in and around the video games industry with 
+	practical expertise in management, market strategy, operations, marketing and events. 
+	We’re hands-on, practical, and focused on outcomes.
+            </p>
+            <p class="muted">
+              <!-- Optional line -->
+              Based in Bucharest • Working with partners in Romania and internationally
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" class="section">
+        <div class="container">
+          <h2 class="section-title">Who you’ll work with</h2>
+
+          <div class="grid">
+            <!-- Person 1 -->
+            <article class="card profile">
+              <img
+                class="profile-photo"
+                src="assets/catalin-placeholder.jpg"
+                alt="Portrait of Catalin"
+                loading="lazy"
+              />
+
+              <div class="profile-body">
+                <h3 class="profile-name">Catalin Butnariu</h3>
+
+                <ul class="topics">
+                  <!-- List your consulting topics here -->
+                  <li>General Management</li>
+                  <li>Video Games Market</li>
+                  <li>Video Game Events</li>
+                  <li>Game Development Services</li>
+                </ul>
+
+                <a
+                  class="button"
+                  href="https://www.linkedin.com/in/catalin-butnariu-6b24186/"
+                  target="https://www.linkedin.com/in/catalin-butnariu-6b24186/"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn Profile
+                </a>
+              </div>
+            </article>
+
+            <!-- Person 2 -->
+            <article class="card profile">
+              <img
+                class="profile-photo"
+                src="assets/madalina-placeholder.jpg"
+                alt="Portrait of Madalina"
+                loading="lazy"
+              />
+
+              <div class="profile-body">
+                <h3 class="profile-name">Madalina Butnariu</h3>
+
+                <ul class="topics">
+                  <!-- List your consulting topics here -->
+                  <li>Brand Management</li>
+                  <li>Marketing Strategy</li>
+                  <li>Events Management</li>
+                  <li>Operations Management</li>
+                </ul>
+
+                <a
+                  class="button"
+                  href="https://www.linkedin.com/in/madalina-butnariu-1aa77a13/"
+                  target="https://www.linkedin.com/in/madalina-butnariu-1aa77a13/"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn Profile
+                </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta">
+        <div class="container">
+          <div class="card cta-card">
+            <h2 class="section-title">Let’s talk</h2>
+            <p class="lead">
+              The easiest way to reach us is directly on LinkedIn. Send a short message
+              with what you’re trying to achieve, and we’ll reply quickly.
+            </p>
+
+<!--
+            <div class="cta-actions">
+              <a
+                class="button primary"
+                href="https://www.linkedin.com/in/PLACEHOLDER-CATALIN"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Message Catalin on LinkedIn
+              </a>
+              <a
+                class="button"
+                href="https://www.linkedin.com/in/PLACEHOLDER-MADALINA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Message Madalina on LinkedIn
+              </a>
+            </div>
+-->
+
+            <p class="fineprint">
+              Prefer email? Use "contact@" our domain name.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> BluFlame Consulting</p>
+<!--
+        <p class="muted">Single-page static site. Fast, minimal, and easy to host.</p>
+-->
+      </div>
+    </footer>
+
+    <script>
+      // Tiny convenience: keep the year current
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
